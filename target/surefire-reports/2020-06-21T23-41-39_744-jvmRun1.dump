@@ -1,4 +1,4 @@
-# Created at 2020-06-21T23:26:06.500
+# Created at 2020-06-21T23:41:42.608
 org.apache.maven.surefire.util.SurefireReflectionException: java.lang.ClassNotFoundException: org.apache.maven.surefire.testng.TestNGProvider
 	at org.apache.maven.surefire.util.ReflectionUtils.loadClass(ReflectionUtils.java:222)
 	at org.apache.maven.surefire.util.ReflectionUtils.instantiateOneArg(ReflectionUtils.java:121)
