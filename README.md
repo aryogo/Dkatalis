@@ -6,7 +6,7 @@ Please read the steps carefully :
 3. Open your IDE (Preferably Intellij)
 4. Open File or Project and go to the project directory
 5. Open File TestCase.java
-6. Run the project on method testSucess() for UI case point 1
+6. Run the project on method testSuccess() for UI case point 1
 7. Run the project on method testFailed() for UI case point 2
 8. The project will open the browser and do the automation test
 
