@@ -1,7 +1,7 @@
-object\homePage.class
-action\homePageAction.class
-action\ccPageAction.class
-action\summaryPageAction.class
-object\summaryPage.class
 config\config.class
+object\homePage.class
 object\ccPage.class
+action\ccPageAction.class
+object\summaryPage.class
+action\summaryPageAction.class
+action\homePageAction.class

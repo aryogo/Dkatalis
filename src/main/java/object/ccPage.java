@@ -10,7 +10,7 @@ public class ccPage {
     @FindBy(xpath = "//*[@id=\"application\"]/div[3]/div/div/div/iframe")
     public static WebElement iFrameCC;
 
-    @FindBy(xpath = "//input[@name='PaRes']")
+    @FindBy(xpath = "//*[@id=\"PaRes\"]")
     public static WebElement txtPwd;
 
     @FindBy(xpath = "//*[@id=\"acsForm\"]/div[6]/div/button[1]")

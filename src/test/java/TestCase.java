@@ -1,8 +1,11 @@
 import action.ccPageAction;
 import action.homePageAction;
 import action.summaryPageAction;
+import com.google.common.annotations.VisibleForTesting;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import sun.awt.windows.ThemeReader;
 
 public class TestCase extends config.config {
     homePageAction hp;
@@ -77,13 +80,13 @@ public class TestCase extends config.config {
         //script to click button "Ok"
         cp.clickBtnOk();
 
-        //delay 2s
-        sleep();
-        //Close the browser
-        driver.quit();
+        //delay 5s
+        Thread.sleep(5000);
+
+        //to run failed scenario test (UI case point 2)
+        testFailed();
     }
 
-    @Test
     public void testFailed() throws InterruptedException {
         //script to click button "Buy Now"
         hp.clickBtnBuy();
@@ -151,6 +154,12 @@ public class TestCase extends config.config {
     public static void sleep() throws InterruptedException {
         //Delay 2s the execution of current thread
         Thread.sleep(2000);
+    }
+
+    @AfterTest
+    public void quit(){
+        //Close the browser
+        driver.quit();
     }
 
 }

@@ -1,5 +1,6 @@
 package config;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,6 +14,8 @@ public class config {
         System.setProperty("webdriver.chrome.driver", "Dkatalis/../driver/chromedriver.exe");
         driver = new ChromeDriver();
         //Launch the application
+        driver.manage().window().maximize();
         driver.get("https://demo.midtrans.com/");
+
     }
 }
