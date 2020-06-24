@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="86579" started-at="2020-06-23T18:05:28Z" finished-at="2020-06-23T18:06:55Z">
+  <suite name="Suite" duration-ms="70462" started-at="2020-06-24T18:56:00Z" finished-at="2020-06-24T18:57:10Z">
     <groups>
     </groups>
-    <test name="test chrome" duration-ms="86579" started-at="2020-06-23T18:05:28Z" finished-at="2020-06-23T18:06:55Z">
+    <test name="test chrome" duration-ms="70462" started-at="2020-06-24T18:56:00Z" finished-at="2020-06-24T18:57:10Z">
       <class name="TestCase">
-        <test-method status="PASS" signature="start()[pri:0, instance:TestCase@35fb3008]" name="start" is-config="true" duration-ms="26169" started-at="2020-06-23T18:05:28Z" finished-at="2020-06-23T18:05:54Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:TestCase@35fb3008]" name="start" is-config="true" duration-ms="8793" started-at="2020-06-24T18:56:00Z" finished-at="2020-06-24T18:56:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="testSuccess()[pri:0, instance:TestCase@35fb3008]" name="testSuccess" duration-ms="60349" started-at="2020-06-23T18:05:54Z" finished-at="2020-06-23T18:06:55Z">
+        <test-method status="PASS" signature="testSuccess()[pri:1, instance:TestCase@35fb3008]" name="testSuccess" duration-ms="32108" started-at="2020-06-24T18:56:08Z" finished-at="2020-06-24T18:56:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccess -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:TestCase@35fb3008]" name="quit" is-config="true" duration-ms="1" started-at="2020-06-23T18:06:55Z" finished-at="2020-06-23T18:06:55Z">
+        <test-method status="PASS" signature="testFailed()[pri:2, instance:TestCase@35fb3008]" name="testFailed" duration-ms="29529" started-at="2020-06-24T18:56:40Z" finished-at="2020-06-24T18:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailed -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestCase@35fb3008]" name="quit" is-config="true" duration-ms="1" started-at="2020-06-24T18:57:10Z" finished-at="2020-06-24T18:57:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

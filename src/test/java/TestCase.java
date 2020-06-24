@@ -21,7 +21,7 @@ public class TestCase extends config.config {
         cp = new ccPageAction();
     }
 
-    @Test
+    @Test (priority = 1)
     public void testSuccess() throws InterruptedException {
         //script to click button "Buy Now"
         hp.clickBtnBuy();
@@ -82,11 +82,9 @@ public class TestCase extends config.config {
 
         //delay 5s
         Thread.sleep(5000);
-
-        //to run failed scenario test (UI case point 2)
-        testFailed();
     }
 
+    @Test(priority = 2)
     public void testFailed() throws InterruptedException {
         //script to click button "Buy Now"
         hp.clickBtnBuy();

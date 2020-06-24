@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f48133e5-5a3b-4c8f-adf5-8378a6fb22a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/object/ccPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/ccPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-06-21T23-41-39_744-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-06-21T23-41-39_744.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="7578" />
+          <entry key="java" value="7595" />
           <entry key="md" value="1613" />
           <entry key="xml" value="634" />
           <entry key="xsl" value="1" />
@@ -47,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7578" />
+          <entry key="JAVA" value="7595" />
           <entry key="Markdown" value="1613" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="635" />
@@ -80,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -244,8 +230,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCaseSuccess.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/object/ccPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCase.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCase.java" />
       </list>
     </option>
   </component>
@@ -280,6 +266,17 @@
               <item name="dkatalis_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dkatalis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dkatalis_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dkatalis" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dkatalis_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dkatalis" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -292,7 +289,7 @@
     <property name="SearchEverywhereHistoryKey" value="testcas&#9;FILE&#9;file://D:/DKATALIS/Dkatalis/src/test/java/TestCase.java&#10;readme&#9;FILE&#9;file://D:/DKATALIS/Dkatalis/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592935638698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593025073939" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/surefire-testng-3.0.0-M5 (1).jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -405,7 +402,7 @@
       <updated>1592675390838</updated>
       <workItem from="1592675400934" duration="34429000" />
       <workItem from="1592757437086" duration="18000" />
-      <workItem from="1592757500053" duration="16882000" />
+      <workItem from="1592757500053" duration="17643000" />
     </task>
     <servers />
   </component>
@@ -442,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51329000" />
+    <option name="totallyTimeSpent" value="52090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -729,16 +726,6 @@
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/2020-06-24T00-58-03_261.dumpstream">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -746,6 +733,16 @@
             <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

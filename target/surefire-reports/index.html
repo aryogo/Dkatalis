@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase" hash-for-method="testFailed">testFailed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCase" hash-for-method="testSuccess">testSuccess</a> <!-- method navigator-link -->
@@ -123,6 +128,13 @@
               <span class="class-name">TestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFailed">
+                  </a> <!-- testFailed -->
+                  <span class="method-name">testFailed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testSuccess">
@@ -185,11 +197,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSuccess')
 data.setCell(0, 2, 'TestCase')
-data.setCell(0, 3, 60349);
+data.setCell(0, 3, 32108);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFailed')
+data.setCell(1, 2, 'TestCase')
+data.setCell(1, 3, 29529);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -227,11 +243,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testSuccess</span>
-                <span class="method-start">26197 ms</span>
+                <span class="method-start">8821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFailed</span>
+                <span class="method-start">40930 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quit</span>
-                <span class="method-start">86576 ms</span>
+                <span class="method-start">70459 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
